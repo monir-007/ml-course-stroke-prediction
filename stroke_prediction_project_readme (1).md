@@ -210,9 +210,6 @@ Logistic Regression achieved the highest recall and successfully detected more s
   <img src="images/cv_results.png" width="520" alt="Cross Validation Results">
 </p>
 
-## Cross-Validation Results
-
-![Cross Validation](images/cv_results.png)
 
 5-fold stratified cross-validation was used to test model stability.
 
@@ -234,10 +231,6 @@ The results show that Logistic Regression remained stable across multiple valida
   <img src="images/feature_importance.png" width="620" alt="Feature Importance">
 </p>
 
-# Feature Importance
-
-![Feature Importance](images/feature_importance.png)
-
 The most important features for stroke prediction were:
 
 1. age
@@ -258,8 +251,6 @@ Age was the strongest predictor across multiple models.
   <img src="images/shap_summary.png" width="720" alt="SHAP Summary">
 </p>
 
-![SHAP Summary](images/shap_summary.png)
-
 SHAP values were used to explain how features influence model predictions.
 
 ### Main Findings
@@ -277,7 +268,6 @@ SHAP values were used to explain how features influence model predictions.
   <img src="images/shap_waterfall.png" width="620" alt="SHAP Waterfall">
 </p>
 
-![SHAP Waterfall](images/shap_waterfall.png)
 
 This visualization explains why the model predicted high stroke probability for a specific patient.
 
@@ -291,7 +281,6 @@ This visualization explains why the model predicted high stroke probability for 
 
 ## Threshold Tuning
 
-![Threshold Tuning](images/threshold_tuning.png)
 
 Threshold optimization was performed to balance:
 
@@ -309,10 +298,6 @@ This is important in healthcare applications where missing stroke cases can have
   <img src="images/calibration.png" width="520" alt="Calibration Plot">
 </p>
 
-## Calibration Analysis
-
-![Calibration Plot](images/calibration.png)
-
 Calibration analysis was used to evaluate whether predicted probabilities matched real-world stroke probabilities.
 
 ---
@@ -322,10 +307,6 @@ Calibration analysis was used to evaluate whether predicted probabilities matche
 <p align="center">
   <img src="images/fairness_audit.png" width="720" alt="Fairness Audit">
 </p>
-
-## Fairness Audit
-
-![Fairness Audit](images/fairness_audit.png)
 
 The model was evaluated across:
 
@@ -399,18 +380,6 @@ This project demonstrates:
 
 ---
 
-# Future Improvements
-
-Possible future enhancements:
-
-- deploy as a Streamlit web application
-- add real-time prediction API
-- hyperparameter optimization
-- deep learning models
-- cloud deployment using AWS
-
----
-
 # Author
 
 ## Md Monir Hossain
@@ -425,5 +394,5 @@ https://github.com/monir-007/ml-course-stroke-prediction
 
 # License
 
-This project is for educational and research purposes.
+This project is for final report of ML Course.
 
