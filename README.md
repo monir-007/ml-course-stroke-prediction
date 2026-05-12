@@ -383,18 +383,6 @@ This project demonstrates:
 
 ---
 
-# Future Improvements
-
-Possible future enhancements:
-
-- deploy as a Streamlit web application
-- add real-time prediction API
-- hyperparameter optimization
-- deep learning models
-- cloud deployment using AWS
-
----
-
 # Author
 
 ## Md Monir Hossain
@@ -409,5 +397,5 @@ https://github.com/monir-007/ml-course-stroke-prediction
 
 # License
 
-This project is for educational and research purposes.
+This project is for ML Course.
 
