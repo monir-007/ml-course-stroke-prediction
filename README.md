@@ -67,18 +67,6 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 ---
 
-# Visual Overview
-
-<p align="center">
-  <img src="images/pipeline_diagram.png" width="650" alt="Pipeline Diagram">
-</p>
-
-<p align="center">
-  <b>End-to-end preprocessing and machine learning workflow used in the project</b>
-</p>
-
----
-
 # Machine Learning Workflow
 
 The project follows a full preprocessing and modeling pipeline.
@@ -101,7 +89,10 @@ The project follows a full preprocessing and modeling pipeline.
 
 # Preprocessing Pipeline
 
-![Pipeline Diagram](images/pipeline_diagram.png)
+<p align="center">
+  <img src="images/pipeline_diagram.png" width="720" alt="Stroke Prediction ML Overview">
+</p>
+
 
 ### Numeric Features
 - median imputation
@@ -146,8 +137,6 @@ The following models were trained and evaluated:
 The dataset contains severe class imbalance, which makes stroke prediction challenging in real-world healthcare environments.
 
 The dataset contains severe class imbalance.
-
-![Class Distribution](images/class_balance.png)
 
 - Non-stroke: 4860
 - Stroke: 249
@@ -225,8 +214,6 @@ Logistic Regression achieved the highest recall and successfully detected more s
 
 ## Cross-Validation Results
 
-![Cross Validation](images/cv_results.png)
-
 5-fold stratified cross-validation was used to test model stability.
 
 ### Mean ROC-AUC Scores
@@ -246,10 +233,6 @@ The results show that Logistic Regression remained stable across multiple valida
 <p align="center">
   <img src="images/feature_importance.png" width="620" alt="Feature Importance">
 </p>
-
-# Feature Importance
-
-![Feature Importance](images/feature_importance.png)
 
 The most important features for stroke prediction were:
 
@@ -271,8 +254,6 @@ Age was the strongest predictor across multiple models.
   <img src="images/shap_summary.png" width="720" alt="SHAP Summary">
 </p>
 
-![SHAP Summary](images/shap_summary.png)
-
 SHAP values were used to explain how features influence model predictions.
 
 ### Main Findings
@@ -290,8 +271,6 @@ SHAP values were used to explain how features influence model predictions.
   <img src="images/shap_waterfall.png" width="620" alt="SHAP Waterfall">
 </p>
 
-![SHAP Waterfall](images/shap_waterfall.png)
-
 This visualization explains why the model predicted high stroke probability for a specific patient.
 
 ---
@@ -301,10 +280,6 @@ This visualization explains why the model predicted high stroke probability for 
 <p align="center">
   <img src="images/threshold_tuning.png" width="720" alt="Threshold Tuning">
 </p>
-
-## Threshold Tuning
-
-![Threshold Tuning](images/threshold_tuning.png)
 
 Threshold optimization was performed to balance:
 
@@ -324,8 +299,6 @@ This is important in healthcare applications where missing stroke cases can have
 
 ## Calibration Analysis
 
-![Calibration Plot](images/calibration.png)
-
 Calibration analysis was used to evaluate whether predicted probabilities matched real-world stroke probabilities.
 
 ---
@@ -337,8 +310,6 @@ Calibration analysis was used to evaluate whether predicted probabilities matche
 </p>
 
 ## Fairness Audit
-
-![Fairness Audit](images/fairness_audit.png)
 
 The model was evaluated across:
 
