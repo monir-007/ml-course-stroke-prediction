@@ -65,17 +65,6 @@ https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 - Residence_type
 - ever_married
 
----
-
-# Visual Overview
-
-<p align="center">
-  <img src="images/pipeline_diagram.png" width="650" alt="Pipeline Diagram">
-</p>
-
-<p align="center">
-  <b>End-to-end preprocessing and machine learning workflow used in the project</b>
-</p>
 
 ---
 
@@ -146,8 +135,6 @@ The following models were trained and evaluated:
 The dataset contains severe class imbalance, which makes stroke prediction challenging in real-world healthcare environments.
 
 The dataset contains severe class imbalance.
-
-![Class Distribution](images/class_balance.png)
 
 - Non-stroke: 4860
 - Stroke: 249
