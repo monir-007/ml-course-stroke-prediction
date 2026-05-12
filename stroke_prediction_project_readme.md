@@ -14,7 +14,7 @@
 ---
 
 <p align="center">
-  <img src="images/roc_curves.png" width="900" alt="Project Banner">
+  <img src="images/pipeline_diagram.png" width="700" alt="Project Overview">
 </p>
 
 # Stroke Prediction Using Machine Learning
@@ -140,12 +140,10 @@ The following models were trained and evaluated:
 # Dataset Imbalance Analysis
 
 <p align="center">
-  <img src="images/class_balance.png" width="700" alt="Class Distribution">
+  <img src="images/class_balance.png" width="520" alt="Class Distribution">
 </p>
 
 The dataset contains severe class imbalance, which makes stroke prediction challenging in real-world healthcare environments.
-
-# Class Distribution
 
 The dataset contains severe class imbalance.
 
@@ -163,7 +161,7 @@ This imbalance makes Recall and ROC-AUC more important than Accuracy alone.
 ## ROC Curve Comparison
 
 <p align="center">
-  <img src="images/roc_curves.png" width="900" alt="ROC Curves">
+  <img src="images/roc_curves.png" width="720" alt="ROC Curves">
 </p>
 
 The ROC curve comparison shows the classification performance of all machine learning models.
@@ -210,7 +208,7 @@ This makes Logistic Regression the most suitable model for healthcare screening 
 # Confusion Matrix Analysis
 
 <p align="center">
-  <img src="images/confusion_matrices.png" width="1000" alt="Confusion Matrices">
+  <img src="images/confusion_matrices.png" width="820" alt="Confusion Matrices">
 </p>
 
 The confusion matrices show how each model performs in identifying stroke and non-stroke patients.
@@ -222,10 +220,10 @@ Logistic Regression achieved the highest recall and successfully detected more s
 # Cross-Validation Stability Analysis
 
 <p align="center">
-  <img src="images/cv_results.png" width="700" alt="Cross Validation Results">
+  <img src="images/cv_results.png" width="520" alt="Cross Validation Results">
 </p>
 
-# Cross-Validation Results
+## Cross-Validation Results
 
 ![Cross Validation](images/cv_results.png)
 
@@ -243,10 +241,10 @@ The results show that Logistic Regression remained stable across multiple valida
 
 ---
 
-# Feature Importance Analysis
+## Feature Importance Analysis
 
 <p align="center">
-  <img src="images/feature_importance.png" width="750" alt="Feature Importance">
+  <img src="images/feature_importance.png" width="620" alt="Feature Importance">
 </p>
 
 # Feature Importance
@@ -270,7 +268,7 @@ Age was the strongest predictor across multiple models.
 ## SHAP Summary Plot
 
 <p align="center">
-  <img src="images/shap_summary.png" width="850" alt="SHAP Summary">
+  <img src="images/shap_summary.png" width="720" alt="SHAP Summary">
 </p>
 
 ![SHAP Summary](images/shap_summary.png)
@@ -289,7 +287,7 @@ SHAP values were used to explain how features influence model predictions.
 ## SHAP Waterfall Example
 
 <p align="center">
-  <img src="images/shap_waterfall.png" width="750" alt="SHAP Waterfall">
+  <img src="images/shap_waterfall.png" width="620" alt="SHAP Waterfall">
 </p>
 
 ![SHAP Waterfall](images/shap_waterfall.png)
@@ -301,10 +299,10 @@ This visualization explains why the model predicted high stroke probability for 
 # Decision Threshold Optimization
 
 <p align="center">
-  <img src="images/threshold_tuning.png" width="850" alt="Threshold Tuning">
+  <img src="images/threshold_tuning.png" width="720" alt="Threshold Tuning">
 </p>
 
-# Threshold Tuning
+## Threshold Tuning
 
 ![Threshold Tuning](images/threshold_tuning.png)
 
@@ -321,10 +319,10 @@ This is important in healthcare applications where missing stroke cases can have
 # Probability Calibration Analysis
 
 <p align="center">
-  <img src="images/calibration.png" width="700" alt="Calibration Plot">
+  <img src="images/calibration.png" width="520" alt="Calibration Plot">
 </p>
 
-# Calibration Analysis
+## Calibration Analysis
 
 ![Calibration Plot](images/calibration.png)
 
@@ -335,10 +333,10 @@ Calibration analysis was used to evaluate whether predicted probabilities matche
 # Fairness and Subgroup Evaluation
 
 <p align="center">
-  <img src="images/fairness_audit.png" width="850" alt="Fairness Audit">
+  <img src="images/fairness_audit.png" width="720" alt="Fairness Audit">
 </p>
 
-# Fairness Audit
+## Fairness Audit
 
 ![Fairness Audit](images/fairness_audit.png)
 
